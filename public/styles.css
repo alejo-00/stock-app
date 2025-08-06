@@ -1,0 +1,13 @@
+/* Estilos base = Mobile First */
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Luego agregás mejoras para pantallas más grandes */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
