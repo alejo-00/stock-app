@@ -1,13 +1,18 @@
-/* Estilos base = Mobile First */
 body {
   font-size: 16px;
   padding: 10px;
 }
 
-/* Luego agregás mejoras para pantallas más grandes */
+/* Responsive para celulares */
 @media (min-width: 768px) {
   body {
-    font-size: 18px;
+    font-size: 12px;
     padding: 20px;
   }
+}
+
+#list-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
