@@ -12,7 +12,13 @@ body {
 }
 
 #list-menu {
+  max-width: fit-content;
+  /* background-color: gray; */
   list-style-type: none;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
+}
+
+.btn-menu {
+  margin: 0.5rem 0;
 }
